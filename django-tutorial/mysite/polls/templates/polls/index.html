@@ -1,3 +1,7 @@
+{% load static%}
+
+<link rel="stylesheet" type ="text/css" href ="{% static 'polls/style.css' %}"/>
+
 <!-- if question list passed to template is not empty -->
 {% if latest_question_list %}
     <ul>
